@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  background-color: #0c1322;
+}
+
+.container {
+  width: 1640px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 20px;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ol {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav ol li a {
+  color: red;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.hero {
+  padding: 150px 0;
+}
+
+.hero__container {
+  position: relative;
+
+  display: flex;
+}
+
+.hero__left {
+  width: 500px;
+  margin-bottom: 215px;
+  text-align: center;
+}
+
+.hero__left h1 {
+  font-size: 50px;
+  line-height: 65px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.hero__left p {
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffffb1;
+  margin-bottom: 20px;
+}
+
+.hero__btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hero__left button {
+  color: #fff;
+  padding: 20px;
+  background-color: red;
+  border-radius: 10px;
+}
+
+.hero__right {
+  position: absolute;
+  top: -174px;
+  right: 100px;
+  margin-left: auto;
+}
+
+.hero__bottom ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.hero__bottom ul li h2 {
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffffb1;
+  margin-bottom: 20px;
+}
+
+.hero__bottom ul li p {
+  color: #ffffffb0;
+}
